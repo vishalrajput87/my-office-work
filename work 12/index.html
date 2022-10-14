@@ -1,0 +1,215 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Graphical and Visual Resume </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawsom-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+</head>
+<body>
+    <div class="container-fluid overcover">
+        <div class="profile-box">
+            <div class="title row">
+                <h1>Steve Smith</h1>
+                <p>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                    <i class="fas sel fa-star"></i>
+                </p>
+                <h6>Web Designer</h6>
+            </div>
+            <div class="details row">
+                <div class="col-md-6">
+                    <div class="about pr">
+                        <h5>About</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo hendrerit tempus. Nunc vulputate erat vel consectetur condimentum Ut aliquam nisl id erat faucibus posuere. Fusce eu lorem eu neque tempus scelerisque at a ligula. Maecenas porta justo eu erat sodales pulvinar.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                   <div class="contact pl">
+                        <h5>Contact Details</h5>
+                        <ul>
+                            <li><i class="fas fa-phone"></i> +1 657 876 9878</li>
+                            <li><i class="far fa-envelope"></i> info@angelinavincent.com</li>
+                            <li><i class="fas fa-globe-americas"></i> angelinavincent.com</li>
+                            <li><i class="fab fa-skype"></i> angelinavincent</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="details row">
+                <div class="col-md-6">
+                    <div class="experiance pr">
+                        <h5>Experiance</h5>
+                        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="experiance pl">
+                        <h6 class="rt6">Trainer</h6>
+                        <p>George Medicals(2013 - 2016)</p>
+                        <ul>
+                            <li>In ultrices porta libero, tincidunt vestibulum felis tincidunt nec.</li>
+                            <li>Curabitur non nibh augue. Nullam hendrerit massa nec ex </li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="details row">
+                <div class="col-md-6">
+                    <div class="qualification pr">
+                        <h5>Qualifications</h5>
+                        <canvas id="myChart7" style="width:100%;max-width:600px"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill pl">
+                        <h5>Skills</h5>
+                        <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="details mb-0 row">
+                <div class="col-md-6">
+                    <div class="award pr">
+                        <h5>Awards</h5>
+                        <h6>Best Fitnes Trainer - 2018</h6>
+                        <p>Goldenfitness Gym</p>
+                        <h6>Best Yoga Trainer - 2017</h6>
+                        <p>Goldenfitness Gym</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="award educa pl">
+                        <h5>Education</h5>
+                        <canvas id="myChart12" style="width:100%;max-width:600px"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var xValues = [100,200,300,400,500,600,700,800,900,1000];
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{ 
+          data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+          borderColor: "red",
+          fill: false
+        }, { 
+          data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+          borderColor: "green",
+          fill: false
+        }, { 
+          data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+          borderColor: "blue",
+          fill: false
+        }]
+      },
+      options: {
+        legend: {display: false}
+      }
+    });
+    </script>
+    <script>
+        var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+        var yValues = [55, 49, 44, 24, 15];
+        var barColors = ["red", "green","blue","orange","brown"];
+
+        new Chart("myChart2", {
+          type: "bar",
+          data: {
+            labels: xValues,
+            datasets: [{
+              backgroundColor: barColors,
+              data: yValues
+            }]
+          },
+          options: {
+            legend: {display: false},
+            title: {
+              display: true,
+              text: "World Wine Production 2018"
+            }
+          }
+        });
+        </script>
+        <script>
+            var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+            var yValues = [55, 49, 44, 24, 15];
+            var barColors = [
+              "#b91d47",
+              "#00aba9",
+              "#2b5797",
+              "#e8c3b9",
+              "#1e7145"
+            ];
+            new Chart("myChart7", {
+              type: "pie",
+              data: {
+                labels: xValues,
+                datasets: [{
+                  backgroundColor: barColors,
+                  data: yValues
+                }]
+              },
+              options: {
+                title: {
+                  display: true,
+                  text: "World Wide Wine Production 2018"
+                }
+              }
+            });
+            </script>
+            <script>
+                var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+                var yValues = [55, 49, 44, 24, 15];
+                var barColors = [
+                  "#b91d47",
+                  "#00aba9",
+                  "#2b5797",
+                  "#e8c3b9",
+                  "#1e7145"
+                ];
+                new Chart("myChart12", {
+                  type: "doughnut",
+                  data: {
+                    labels: xValues,
+                    datasets: [{
+                      backgroundColor: barColors,
+                      data: yValues
+                    }]
+                  },
+                  options: {
+                    title: {
+                      display: true,
+                      text: "World Wide Wine Production 2018"
+                    }
+                  }
+                });
+                </script>    
+                </html>

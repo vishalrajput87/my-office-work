@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://perfectpesha.com/admin/assets/images/brand/logo.png" type="image/x-icon"/>
+	<script defer src="https://themes.3rdwavemedia.com/demo/orbit/assets/fontawesome/js/all.min.js"></script>
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>resume visual and graphics</title>
+    <style>
+        :root {
+            --background-colorcss: #848484;
+        }
+                .list-thing2 {
+            padding: 4px;
+            margin-bottom: 10px;                          
+            background: #848484;
+            border-radius: 2px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        * {
+            box-sizing: border-box;
+            transition: 0.35s ease;
+        }
+        .resume-download{
+            display: block;
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+    background: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    z-index: 1;
+        }
+        .rela-block {
+            position: relative;
+            margin: auto;
+        }
+        .rela-inline {
+            display: inline-block;
+            position: relative;
+            margin: auto;
+        }
+        .floated {
+            display: inline-block;
+            position: relative;
+            margin: false;
+            float: left;
+        }
+        .abs-center {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: 15%;
+            left: 40%;
+            right: false;
+            bottom: false;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            width: 88%;
+        }
+        .abs-center h1{
+        margin:0px
+        }
+        body {
+            font-size: 18px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            line-height: 28px;
+            background-size: cover;
+            color: #3a3a3a;
+        }
+        body:before {
+            content: "";
+            display: false;
+            position: fixed;
+            margin: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ece3e46b;
+        }
+        .caps {
+            text-transform: uppercase;
+        }
+        .justified {
+            text-align: justify;
+        }
+        p.light {
+            color: #848484;
+        }
+        h2 {
+            font-family: 'Open Sans';
+            font-size: 30px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            line-height: 40px;
+            color: #000;
+        }
+        h3 {
+            font-family: 'Open Sans';
+            font-size: 21px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            line-height: 28px;
+           color: #3a3a3a;
+        }
+        .page {
+            width: 90%;
+            max-width: 1200px;
+            margin: 80px auto;
+            background-color: #fff;
+            box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+        }
+        .top-bar {
+            height: 220px;
+            background-color: #f7e2ce;
+            color: #848484;
+        }
+        .name {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: false;
+            left: calc(350px + 5%);
+            right: 0;
+            bottom: 0;
+            height: 120px;
+            text-align: center;
+        }
+        .name div {
+            width: 94%;
+        }
+        .side-bar {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: 60px;
+            left: 2%;
+            right: false;
+            bottom: 0;
+            width: 300px;
+            background-color: var(--background-colorcss);
+            padding: 320px 30px 50px;
+                color: #f9f4f4fa;
+                box-shadow:6px 10px 28px 0px rgb(0 0 0 / 40%);
+        }
+        .mugshot {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: 2%;
+            left: 7%;
+            right: false;
+            bottom: false;
+            height: 210px;
+            width: 210px;
+        }
+        .mugshot .logo {
+               overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #f7e2ce;
+    background: #e0deec;
+}
+        .logo {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: 0;
+            left: 0;
+            right: false;
+            bottom: false;
+            z-index: 100;
+            margin: 0;
+            color: #000;
+            height: 250px;
+            width: 250px;
+        }
+        .logo .logo-svg {
+            height: 100%;
+            width: 100%;
+            stroke: #000;
+            cursor: pointer;
+        }
+        .logo .logo-text {
+            display: false;
+            position: absolute;
+            margin: false;
+            top: 58%;
+            right: 16%;
+            cursor: pointer;
+            font-family: "Montserrat";
+            font-size: 55px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            line-height: 58.333333333333336px;
+        }
+        .social {
+            padding-left: 60px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .social:before {
+            content: "";
+            display: false;
+            position: absolute;
+            margin: false;
+            top: -4px;
+            left: 10px;
+            right: false;
+            bottom: false;
+            height: 35px;
+            width: 35px;
+            background-size: cover !important;
+        }
+        .social.twitter:before {
+            background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png") center no-repeat;
+        }
+        .social.pinterest:before {
+            background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Pinterest-23-128.png") center no-repeat;
+        }
+        .social.linked-in:before {
+            background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png") center no-repeat;
+        }
+        .side-header {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            letter-spacing: 4px;
+            font-weight: 600;
+            line-height: 28px;
+            margin: 10px auto 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #f9f4f4fa; 
+        }
+        .list-thing {
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+        .content-container {
+            margin-right: 0;
+            width: calc(100% - 350px);
+            padding: 25px;
+        }
+        .content-container > h3 {
+            margin: 0 auto 5px;
+            text-transform: capitalize;
+        }
+        .content-container > p.long-margin {
+            margin:0px;
+        }
+        .title {
+            width: 80%;
+            text-align: center;
+        }
+        .separator {
+            width: 240px;
+            height: 2px;
+            background-color: #999;
+        }
+        .greyed {
+            background-color: #848484;
+            color: #f9f4f4fa;
+            width: 100%;
+            font-size: 18px;
+            letter-spacing: 4px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 10px;
+            padding:10px;
+        }
+        @media  print {
+    .resume-download {
+        display :  none !important;
+    }
+    }
+    .resume-download {
+    cursor:pointer;
+    margin-bottom:10px;
+    text-align:right;
+    }
+        .keywords-section .keyword {
+            align-items: center;
+        }
+        .keywords-section  .keyword {
+            margin-right: 7px;
+            min-height: 34px!important;
+        }
+        .keywords-section .keyword {
+            align-items: flex-end;
+            display: inline-flex;
+        }
+        .keywords-section .keyword .keyword-text-wrapper {
+            align-items: center;
+            display: flex;
+            height: calc(100% - 10px);
+            justify-content: center;
+            padding: 5px 10px;
+            width: 100%;
+            line-height: 17px;
+        }
+
+        .keyword-text-wrapper {
+            background: var(--background-colorcss);
+            color:#fff;
+        }
+
+        .template span {
+            display: inline-block;
+        }
+
+        .keywords-section .keyword {
+            align-items: flex-end;
+            display: inline-flex;
+        }
+        .abs-center span i{
+        margin-right:10px;
+        }
+        .main-timeline3{overflow:hidden;position:relative}
+.main-timeline3:before{content:"";width:10px;height:100%;border:3px solid #959595;position:absolute;top:40px;left:50%;transform:translateX(-50%)}
+.main-timeline3 .timeline{width:50%;padding:10px 60px 10px 100px;float:right;position:relative}
+.main-timeline3 .timeline:before{content:"";width:40px;height:40px;border-radius:50%;background:#c47c48;border:5px solid #fff;box-shadow:0 0 1px 5px #c47c48;position:absolute;top:42px;left:-20px}
+.main-timeline3 .timeline-content{display:block;background:#e9e9e7;padding:70px 30px 20px;box-shadow:0 0 10px rgba(0,0,0,.2) inset;position:relative}
+.main-timeline3 .timeline-content:hover{text-decoration:none}
+.main-timeline3 .year{display:block;width:80%;height:50px;background:#c47c48;padding:0 0 0 50px;font-size:30px;font-weight:800;color:#fff;line-height:50px;box-shadow:0 0 20px rgba(0,0,0,.4) inset;border-radius:10px 10px 10px 0;position:absolute;top:20px;left:-20px}
+.main-timeline3 .year:before{content:"";border-top:40px solid #c47c48;border-left:20px solid transparent;border-bottom:20px solid transparent;position:absolute;bottom:-60px;left:0}
+.main-timeline3 .title{font-size:18px;font-weight:600;text-transform:uppercase;color:#4a4a4a}
+.main-timeline3 .description{font-size:14px;color:#6f6f6f;margin:0 0 5px}
+.main-timeline3 .timeline:nth-child(2n){padding:10px 100px 10px 60px;text-align:right}
+.main-timeline3 .timeline:nth-child(2n):before{left:auto;right:-20px;background:#bf3fc8;box-shadow:0 0 1px 5px #bf3fc8}
+.main-timeline3 .timeline:nth-child(2n) .year{padding-right:50px;border-radius:10px 10px 0;left:auto;right:-20px;background:#bf3fc8}
+.main-timeline3 .timeline:nth-child(2n) .year:before{border-left:none;border-right:20px solid transparent;left:auto;right:0;border-top-color:#ffaaa3}
+.main-timeline3 .timeline:nth-child(2){margin-top:140px}
+.main-timeline3 .timeline:nth-child(odd){margin:-140px 0 0}
+.main-timeline3 .timeline:nth-child(even){margin-bottom:60px}
+.main-timeline3 .timeline:first-child,.main-timeline3 .timeline:last-child:nth-child(even){margin:0}
+.main-timeline3 .timeline:nth-child(3n):before{background:#ce3c41;box-shadow:0 0 1px 5px #ce3c41}
+.main-timeline3 .timeline:nth-child(3n) .year{background:#ce3c41}
+.main-timeline3 .timeline:nth-child(3n) .year:before{border-top-color:#ce3c41}
+.main-timeline3 .timeline:nth-child(4n):before{background:#8cc43d;box-shadow:0 0 1px 5px #8cc43d}
+.main-timeline3 .timeline:nth-child(4n) .year{background:#8cc43d}
+.main-timeline3 .timeline:nth-child(4n) .year:before{border-top-color:#8cc43d}
+@media only screen and (max-width:990px){.main-timeline3:before{top:8%}
+.main-timeline3 .timeline{padding:10px 10px 10px 100px}
+.main-timeline3 .timeline:nth-child(2n){padding:10px 100px 10px 10px}}
+@media only screen and (max-width:767px){.main-timeline3:before{width:8px;top:0;left:12px;transform:translateX(0)}
+.main-timeline3 .timeline,.main-timeline3 .timeline:nth-child(even),.main-timeline3 .timeline:nth-child(odd){width:100%;float:none;text-align:left;padding:0 0 0 60px;margin:0 0 30px}
+.main-timeline3 .timeline:before,.main-timeline3 .timeline:nth-child(2n):before{width:20px;height:20px;border:3px solid #fff;top:38px;left:6px}
+.main-timeline3 .timeline:nth-child(2n) .year{right:auto;left:-20px;border-radius:10px 10px 10px 0}
+.main-timeline3 .timeline:nth-child(2n) .year:before{border-left:20px solid transparent;border-bottom:20px solid transparent;border-right:none;right:auto;left:0}
+}
+.main-timeline3 .description {
+    font-size: 9px;
+    color: #6f6f6f;
+    margin: 0 0 5px;
+}
+.side-bar {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 60px;
+    margin: -59px -13px;
+    left: 2%;
+    right: false;
+    bottom: 0;
+    width: 300px;
+    background-color: var(--background-colorcss);
+    padding: 320px 30px 50px;
+    color: #f9f4f4fa;
+    box-shadow: 6px 10px 28px 0px rgb(0 0 0 / 40%);
+}
+.main-timeline3 .year {
+    display: block;
+    width: 65%;
+    height: 45px;
+    background: #c47c48;
+    padding: 0 0 0 50px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 50px;
+    box-shadow: 0 0 20pxrgba(0,0,0,.4) inset;
+    border-radius: 10px 10px 10px 0;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+* {
+    box-sizing: border-box;
+    transition: 0.35s ease;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.main-timeline3 .timeline:nth-child(2n) {
+    padding: 10px 100px 10px 60px;
+    text-align: right;
+}
+.main-timeline3 .year {
+    display: block;
+    width: 65%;
+    height: 45px;
+    background: #c47c48;
+    padding: 0 0 0 50px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 50px;
+    box-shadow: 0 0 20pxrgba(0,0,0,.4) inset;
+    border-radius: 10px 10px 10px 0;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+* {
+    box-sizing: border-box;
+    transition: 0.35s ease;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.main-timeline3 .timeline:nth-child(2n) {
+    padding: 10px 100px 10px 60px;
+    text-align: right;
+}
+.main-timeline3 .year {
+    display: block;
+    width: 120%;
+    height: 44px;
+    background: #c47c48;
+    padding: 0 0 0 50px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 50px;
+    box-shadow: 0 0 20pxrgba(0,0,0,.4) inset;
+    border-radius: 10px 10px 10px 0;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+.main-timeline3 .title {
+    font-size: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+.main-timeline3 .timeline-content {
+    display: block;
+    background: #e9e9e7;
+    padding: 70px 30px 20px;
+    width: 150%;
+    box-shadow: 0 0 10pxrgba(0,0,0,.2) inset;
+    position: relative;
+}
+.abs-center {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 15%;
+    left: 40%;
+    color: #fff;
+    right: false;
+    bottom: false;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 88%;
+}
+.top-bar {
+    height: 220px;
+    background-color: #848484;
+    color: #fff;}
+    .top-bar {
+    height: 220px;
+    background-color: #ead7c8;
+    color: #fff;
+}
+.main-timeline3 .timeline:nth-child(2n) .year { 
+    padding-right: 50px;
+    border-radius: 10px 10px 0;
+    left: auto;
+    right: -20px;
+    background: #ffaaa3;
+}
+.main-timeline3 .year {
+    display: block;
+    width: 120%;
+    height: 44px;
+    background: #ead7c8;
+    padding: 0 0 0 50px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 50px;
+    box-shadow: 0 0 20pxrgba(0,0,0,.4) inset;
+    border-radius: 10px 10px 10px 0;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+.main-timeline3 .timeline:nth-child(3n) .year {
+    background: #e5d2c4;
+}
+.main-timeline3 .timeline:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e7d4c5;
+    border: 5px solid #fff;
+    box-shadow: 0 0 1px 5px #c47c48;
+    position: absolute;
+    top: 42px;
+    left: -20px;
+}
+.main-timeline3 .timeline:nth-child(2n):before {
+    left: auto;
+    right: -20px;
+    background: #fea9a2;
+    box-shadow: 0 0 1px 5px #bf3fc8;
+}
+.main-timeline3 .timeline:nth-child(3n):before {
+    background: #e8d5c6;
+    box-shadow: 0 0 1px 5px #ce3c41;
+}
+.hobbies-section{
+
+    list-style: none;
+}
+.hobbies-section li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+<div class="rela-block page">
+    <div class="rela-block top-bar">
+         <a  onclick="window.print()"  class="resume-download" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Download">
+                    <i class="fa fa-download" aria-hidden="true"> </i>  Download Resume
+                </a>
+        <div class="name"><div class="abs-center"><h1>John Doe</h1>
+        <br/><b> Sr. Web Developer</b/> <br/>        <span><i class="fa fa-map-marker-alt" aria-hidden="true"></i> India <br/>        <i class="fa fa-envelope" aria-hidden="true"></i>  johndoe@gmail.com<br/>        <i class="fa fa-phone-alt" aria-hidden="true"></i>  1234567890</span>
+            </div>
+        </div>
+    </div>
+    <div class="side-bar">
+        <div class="mugshot">
+            <div class="logo">
+             <img alt="John Doe" src="https://resume.perfectpesha.com/assets/images/resumes/1_5ff305ca30e7f_5ff55e4fc698b_2021-06-25 06_32_08 (1)_2022-07-12 10:53:35.jpg" class="rela-block logo-svg">
+            </div>
+        </div>
+        <p class="rela-block caps side-header">
+            Hobbies</p>
+            <ul class="hobbies-section">
+                <li><i class="fas fa-pencil-alt"></i> <br> Writing</li>
+                <li><i class="fas fa-bicycle"></i> <br> Cycling</li>
+            </ul>
+            <p class="rela-block caps side-header">
+                                PROFESSIONAL SKILLS</p>
+                        <p class="list-thing2">
+                                        HTML
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                        </span>              
+                        <p class="list-thing2">
+                                        CSS
+                                         <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                        </span>
+                                            <p class="rela-block caps side-header">Education</p>
+                                                            <p class="rela-block list-thing2">B.Tech<br/>
+              <span>University of Delhi <br/>2005</span></p>   B.Tech<br/> <span>University of Delhi <br/>2005</span></p>  B.Tech<br/><span>University of Delhi <br/>2005</span></p>      <p> <p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></p>
+                                </div>
+                                
+    <div class="rela-block content-container">
+        <div class="rela-block caps greyed">Profile</div>
+        <p class="long-margin">  <p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  </p>
+                    <div class="rela-block caps greyed">Experience</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="main-timeline3">
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <span class="year">2018</span>
+                                        <h3 class="title">Web Designer</h3>
+                                        <p class="description">
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <span class="year">2017</span>
+                                        <h3 class="title">Web Developer</h3>
+                                        <p class="description">
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <span class="year">2016</span>
+                                        <h3 class="title">Web Designer</h3>
+                                        <p class="description">
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#" class="timeline-content">
+                                        <span class="year">2015</span>
+                                        <h3 class="title">Web Developer</h3>
+                                        <p class="description">  
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</body>
+</html>
+
